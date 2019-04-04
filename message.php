@@ -1,7 +1,7 @@
 <?php
 $to      = 'andresquintero@zeroplatform.com';
-$subject = 'Job Contact ' . $_GET["email"];
-$message = $_GET["message"];
+$subject = 'Job Contact ' . $_POST["email"];
+$message = $_POST["message"];
 $headers = 'From: afquintero.tk' . "\r\n" .
     'Reply-To: andresquintero@zeroplatform.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
