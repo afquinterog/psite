@@ -1,5 +1,5 @@
 <?php
-$to      = 'andres@zeroplatform.com';
+$to      = 'andresquintero@zeroplatform.com';
 $subject = 'Job Contact ' . $_GET["email"];
 $message = $_GET["message"];
 $headers = 'From: webmaster@example.com' . "\r\n" .
