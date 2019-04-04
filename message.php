@@ -8,5 +8,5 @@ $headers = 'From: webmaster@example.com' . "\r\n" .
 
 mail($to, $subject, $message, $headers);
 
-header("Location: http://localhost:8888/index.php?msg=1#contact");
+header("Location: http://afquintero.tk/index.php?msg=1#contact");
 die();
