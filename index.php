@@ -348,7 +348,7 @@
                                             </p>
                                         </div>
                                         <div class="has-text-right">
-                                            <a href='https://sciencefestivals.org' class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                            <a href='https://sciencefestivals.org' target="_blank" class="button btn-align btn-outlined accent-btn rounded raised">View</a>
                                         </div>
                                     </div>
                                 </div>
