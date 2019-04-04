@@ -2,8 +2,8 @@
 $to      = 'andresquintero@zeroplatform.com';
 $subject = 'Job Contact ' . $_GET["email"];
 $message = $_GET["message"];
-$headers = 'From: webmaster@example.com' . "\r\n" .
-    'Reply-To: webmaster@example.com' . "\r\n" .
+$headers = 'From: andresquintero@zeroplatform.com' . "\r\n" .
+    'Reply-To: andresquintero@zeroplatform.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 mail($to, $subject, $message, $headers);
