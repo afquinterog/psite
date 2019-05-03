@@ -899,7 +899,7 @@
                         Lets start a new project
                     </h2>
                     <h4>
-                        <p class="content">I am pretty sure we can build amazing stuff together</p>
+                        <p class="content">I am pretty sure we can build amazing stuff together [rocoutp@gmail.com]</p>
                     </h4>
                 </div>
                 <!-- /Title -->
