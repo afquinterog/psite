@@ -179,7 +179,7 @@
                                         </p>
                                     </div>
                                     <div class="has-text-right">
-                                        <a href='http://servers.oru.com.co/app' target="_blank" class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                        <a href='/server-monitor.php' class="button btn-align btn-outlined accent-btn rounded raised">View</a>
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +211,7 @@
                                         </p>
                                     </div>
                                     <div class="has-text-right">
-                                        <a href='https://trygps.com.co' target="_blank" class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                        <a href='/trygps.php' target="_blank" class="button btn-align btn-outlined accent-btn rounded raised">View</a>
                                     </div>
                                 </div>
                             </div>
