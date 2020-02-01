@@ -22,7 +22,7 @@
 
         <style>
             .min-height{
-                
+
             }
             .project-text{
                 text-align: justify;
@@ -48,11 +48,11 @@
     </head>
     <body>
         <div class="pageloader"></div>
-        <div class="infraloader is-active"></div>        
-        
+        <div class="infraloader is-active"></div>
+
         <!-- Hero and nav -->
         <div class="hero hero-wavy is-relative is-theme-primary huge-pb">
-            
+
             <nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent">
                 <div class="container">
                     <!-- Brand -->
@@ -60,10 +60,10 @@
                         <a class="navbar-item" href="/">
                             <b>Dev Ops / Web Developer</b>
                         </a>
-            
-                        
+
+
                     </div>
-            
+
                     <!-- Navbar menu -->
                     <div class="navbar-menu">
                         <!-- Navbar Start -->
@@ -81,7 +81,7 @@
                                 Login
                             </a> -->
                         </div>
-            
+
                         <!-- Navbar end -->
                         <div class="navbar-end">
                             <!-- Signup button -->
@@ -104,12 +104,12 @@
                             </h1>
                             <h2 class="subtitle is-5 light-text pt-10 pb-10">
                                 Application to monitor different server metrics, execute remote task using ssh and schedule task
-                                to run on specific time also allows you to  
+                                to run on specific time also allows you to
                                 group your servers by categories and many more options.
                             </h2>
                             <p class="pt-10 pb-10">
                                 <a href="#contact-us" class="button button-cta light-btn btn-outlined is-bold rounded z-index-2">
-                                    Let's work
+                                    Featured project
                                 </a>
                             </p>
                         </div>
@@ -142,16 +142,116 @@
                     </h2>
                     <h4>
                         <p class="content">
-                        Some projects i worked actively, some of them are propietary so it not possible for me to 
+                        Some projects i worked actively, some of them are propietary so it not possible for me to
                         access the production site, but chances are i have it on my local environment or at least some screenshots
-                        just for academics purposes.
+                        just for academic purposes.
                         </p>
                     </h4>
                 </div>
 
-        
+
                 <div class="content-wrapper">
+
                     <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
+                         <!-- Project -->
+                        <div class="column">
+                            <div class="mr-10 min-height">
+                            <div class="flex-card light-bordered hover-inset ">
+                                <div class="flex-card-header">
+                                    <div class="header-avatar">
+                                        <!-- <img src="assets/images/avatars/helen.jpg"> -->
+                                    </div>
+                                    <div class="header-info">
+                                        <div class="header-title">CloudServices</div>
+                                        <div class="header-subtitle">Laravel / Php / Mysql / Redis</div>
+                                    </div>
+                                    <div class="header-control ml-auto">
+                                        <!-- <a href='http://servers.oru.com.co/app' target="_blank"><i style='font-size:2rem' class="material-icons">call_made</i></a> -->
+                                    </div>
+                                </div>
+                                <div class="card-body is-small">
+                                    <div class="content">
+                                        <p class="pb-10 project-text">
+
+                                          Application that allows to manage process on services companies, include: services types, attributes, customers, attachments, users, tasks, statistics and reports.<br/>
+
+                                        </p>
+                                    </div>
+                                    <div class="has-text-right">
+                                        <a href='/cloudwatch-es-cognito.php' class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- /Project -->
+
+                        <!-- Project -->
+                        <div class="column">
+                            <div class="mr-10 min-height">
+                            <div class="flex-card light-bordered hover-inset ">
+                                <div class="flex-card-header">
+                                    <div class="header-avatar">
+                                        <!-- <img src="assets/images/avatars/helen.jpg"> -->
+                                    </div>
+                                    <div class="header-info">
+                                        <div class="header-title">Vault on AWS</div>
+                                        <div class="header-subtitle">Aws / Lambda / Terraform / VPC / DynamoDB</div>
+                                    </div>
+                                    <div class="header-control ml-auto">
+                                        <!-- <a href='http://servers.oru.com.co/app' target="_blank"><i style='font-size:2rem' class="material-icons">call_made</i></a> -->
+                                    </div>
+                                </div>
+                                <div class="card-body is-small">
+                                    <div class="content">
+                                        <p class="pb-10 project-text">
+                                            Vault high availability implementation using a load balancer, instances on different networks, KMS and Dynamo DB as the data storage. All the elements has been coded using Terraform. Also vault has been implemented to use the auto-unseal feature.
+                                            <br/>
+
+                                        </p>
+                                    </div>
+                                    <div class="has-text-right">
+                                        <a href='/vault-aws.php' class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- /Project -->
+                    </div>
+
+                    <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
+
+                        <!-- Project -->
+                        <div class="column">
+                            <div class="mr-10 min-height">
+                            <div class="flex-card light-bordered hover-inset ">
+                                <div class="flex-card-header">
+                                    <div class="header-avatar">
+                                        <!-- <img src="assets/images/avatars/helen.jpg"> -->
+                                    </div>
+                                    <div class="header-info">
+                                        <div class="header-title">AWS Logs</div>
+                                        <div class="header-subtitle">Aws / Cloudwatch / Lambda / ElasticSearch</div>
+                                    </div>
+                                    <div class="header-control ml-auto">
+                                        <!-- <a href='http://servers.oru.com.co/app' target="_blank"><i style='font-size:2rem' class="material-icons">call_made</i></a> -->
+                                    </div>
+                                </div>
+                                <div class="card-body is-small">
+                                    <div class="content">
+                                        <p class="pb-10 project-text">This solution send application logs to a nice Kibana dashboard through an AWS pipeline of services and use Cognito to enable Google authentication. Java Spring application, Rails, Cloudwatch (Log groups, logs streams), Lambda, Elastic Search, Kibana, Cognito-OAuth2-Google.<br/>
+
+                                        </p>
+                                    </div>
+                                    <div class="has-text-right">
+                                        <a href='/cloudwatch-es-cognito.php' class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- /Project -->
 
                         <!-- Project -->
                         <div class="column">
@@ -171,8 +271,8 @@
                                 </div>
                                 <div class="card-body is-small">
                                     <div class="content">
-                                        <p class="pb-10 project-text">Application to monitor different server metrics, 
-                                            execute remote task using ssh and schedule task to run on specific time 
+                                        <p class="pb-10 project-text">Application to monitor different server metrics,
+                                            execute remote task using ssh and schedule task to run on specific time
                                             also allows you to group your servers by categories and assign task to a specific
                                             category.<br/>
 
@@ -186,6 +286,10 @@
                             </div>
                         </div>
                         <!-- /Project -->
+
+                    </div>
+
+                    <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
 
                         <!-- Project -->
                         <div class="column">
@@ -205,8 +309,8 @@
                                 </div>
                                 <div class="card-body is-small">
                                     <div class="content">
-                                        <p class="pb-10 project-text">Gps tracker application: allow vehicles and bike's real time tracking, 
-                                            define geofences and configure email alerts (geofences in/out, speed, work schedules). 
+                                        <p class="pb-10 project-text">Gps tracker application: allow vehicles and bike's real time tracking,
+                                            define geofences and configure email alerts (geofences in/out, speed, work schedules).
                                             Configure driver information, distance reports and point of interest.
                                         </p>
                                     </div>
@@ -238,8 +342,8 @@
                                 <div class="card-body is-small">
                                     <div class="content">
                                         <p class="pb-10 project-text">Application to connect volunteers, providers and families.
-                                            Provider Portal allows to promote STEM education opportunities to families, 
-                                            post volunteer openings through VolunteerMatch and to find other organizations 
+                                            Provider Portal allows to promote STEM education opportunities to families,
+                                            post volunteer openings through VolunteerMatch and to find other organizations
                                             with which to collaborate
                                         </p>
                                     </div>
@@ -275,8 +379,8 @@
                                     <div class="card-body is-small">
                                         <div class="content">
                                             <p class="pb-10  project-text">
-                                                Provider Portal allows to promote STEM education opportunities to families, 
-                                                post volunteer openings through VolunteerMatch and to find other organizations 
+                                                Provider Portal allows to promote STEM education opportunities to families,
+                                                post volunteer openings through VolunteerMatch and to find other organizations
                                                 with which to collaborate on Australia.<br/>
                                             </p>
                                         </div>
@@ -308,7 +412,7 @@
                                     <div class="card-body is-small">
                                         <div class="content">
                                             <p class="pb-10 project-text">
-                                                Application used by the Tigo Une(colombian telecomunications company) 
+                                                Application used by the Tigo Une(colombian telecomunications company)
                                                 sell team that allows to grab the available user plans mix that plans on different configurations
                                                 and save the information on the company CRM using web services.
                                             </p>
@@ -341,8 +445,8 @@
                                     <div class="card-body is-small">
                                         <div class="content">
                                             <p class="pb-10 project-text" >
-                                                Science Festival Alliance (SFA) is a professional community 
-                                                dedicated to more and better science and technology festivals. 
+                                                Science Festival Alliance (SFA) is a professional community
+                                                dedicated to more and better science and technology festivals.
                                                 Also includes a festival map and a resources section to share festival information.
                                                 <br/>
                                             </p>
@@ -356,8 +460,8 @@
                         </div>
                         <!-- /Project -->
                     </div>
- 
-                        
+
+
                     </div>
                     <div class="has-text-centered pt-40 pb-40">
                         <a href="#contact-us" class="button button-cta btn-align primary-btn rounded">Let's start a new project</a>
@@ -368,7 +472,7 @@
         <!-- /Projects -->
 
 
-        
+
         <!-- Skills-->
         <section class="section is-medium">
             <div class="container has-text-centered">
@@ -380,8 +484,8 @@
                     </h2>
                     <h4>
                         <p class="content">
-                            I don't consider myseft an expert in all the following topics but at some point 
-                        needed to work with each of them, also is important to note that i improved my 
+                            I don't consider myseft an expert in all the following topics but at some point
+                        needed to work with each of them, also is important to note that i improved my
                         programming skills the last eleven years creating applications
                         on different stacks.
                         I tried to order my skills by knowledge on descending order.
@@ -389,7 +493,7 @@
                     </h4>
                 </div>
                 <!-- /Title -->
-        
+
                 <div class="content-wrapper">
                     <div class="columns is-vcentered is-multiline has-text-centered">
                         <div class="column is-hidden-mobile"></div>
@@ -406,7 +510,7 @@
                                 <div class="box-title">
                                     OOP
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -422,7 +526,7 @@
                                 <div class="box-title">
                                     PHP
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -438,7 +542,7 @@
                                 <div class="box-title">
                                     Java
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -461,7 +565,7 @@
                                 <div class="box-title">
                                     Laravel
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -477,7 +581,7 @@
                                 <div class="box-title">
                                     Vue
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -493,7 +597,7 @@
                                 <div class="box-title">
                                 Android
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -516,7 +620,7 @@
                                 <div class="box-title">
                                     Ionic
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -532,7 +636,7 @@
                                 <div class="box-title">
                                     Ubuntu
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -548,7 +652,7 @@
                                 <div class="box-title">
                                     Apache
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -571,7 +675,7 @@
                                 <div class="box-title">
                                     Nginx
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -587,7 +691,7 @@
                                 <div class="box-title">
                                 EC2
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -603,7 +707,7 @@
                                 <div class="box-title">
                                     Docker
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -626,7 +730,7 @@
                                 <div class="box-title">
                                     Spring
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -642,7 +746,7 @@
                                 <div class="box-title">
                                     Vaadin
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -658,7 +762,7 @@
                                 <div class="box-title">
                                     Rails
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -681,7 +785,7 @@
                                 <div class="box-title">
                                     Wordpress
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -697,7 +801,7 @@
                                 <div class="box-title">
                                     Scrum
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -713,7 +817,7 @@
                                 <div class="box-title">
                                     Angular
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -721,8 +825,8 @@
                         <!-- /Icon box -->
                         <div class="column is-hidden-mobile"></div>
                     </div>
-        
-                   
+
+
                     <!-- <div class="is-title-reveal pt-40 pb-40">
                         <a href="#contact-us" class="button button-cta btn-align primary-btn rounded raised">Get in touch</a>
                     </div> -->
@@ -742,11 +846,11 @@
                         Certifications
                     </h2>
                     <h4>
-                        
+
                     </h4>
                 </div>
                 <!-- /Title -->
-        
+
                 <div class="content-wrapper">
                     <div class="columns is-vcentered is-multiline has-text-centered">
                         <div class="column is-hidden-mobile"></div>
@@ -762,7 +866,7 @@
                                 <div class="box-title">
                                     PHP
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -778,7 +882,7 @@
                                 <div class="box-title">
                                     Java
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -794,7 +898,7 @@
                                 <div class="box-title">
                                     PSP
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -817,7 +921,7 @@
                                 <div class="box-title">
                                     Process Maker
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -833,7 +937,7 @@
                                 <div class="box-title">
                                     Aws(WIP)
                                 </div>
-                                <div class="box-text is-tablet-padded-lg"> 
+                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
@@ -842,8 +946,8 @@
                         <!-- /Icon box -->
                         <div class="column is-hidden-mobile"></div>
                     </div>
-        
-                   
+
+
                     <div class="is-title-reveal pt-40 pb-40">
                         <a href="#contact-us" class="button button-cta btn-align primary-btn rounded raised">Get in touch</a>
                     </div>
@@ -862,16 +966,16 @@
                     <h2 class="section-title-landing">
                         About me
                     </h2>
-                    <h4> 
+                    <h4>
                         <div class="content">
-                            <p>My name is Andres Felipe Quintero Garcia i live in Pereira a small city near Medellin in 
+                            <p>My name is Andres Felipe Quintero Garcia i live in Pereira a small city near Medellin in
                             Colombia, i am systems engineer from Technological University and actually i am working in
-                            my master grade project on software projects management. I has been working almost 11 years 
+                            my master grade project on software projects management. I has been working almost 11 years
                             developing software programs and 5 working as remote with some USA base companies.
-                            I am certified on Php by Zend, Java by Oracle and PSP by the Sofware Engineering Institute.</p>
+                            I am Aws Certified Solutions Architect by Amazon certified on Php by Zend, Java by Oracle and PSP by the Sofware Engineering Institute.</p>
                         </div>
                         <div class="content">
-                            <p>I have a beatiful family compose by my wife, his 7 years old child, a baby that is coming  
+                            <p>I have a beatiful family compose by my wife, his 7 years old child, a baby that is coming
                             and also we have two friendly dogs and a rabbit.</p>
                         </div>
 
@@ -882,13 +986,13 @@
                     </h4>
                 </div>
 
-               
+
             </div>
         </section>
         <!-- /About me -->
-        
-    
-        
+
+
+
         <!-- Contact form section -->
         <section id='contact' class="section is-medium is-relative section-feature-grey footer-wavy">
             <div class="container">
@@ -903,7 +1007,7 @@
                     </h4>
                 </div>
                 <!-- /Title -->
-        
+
                 <div class="content-wrapper">
                     <!-- Form -->
                     <form action="message.php" method="POST">
@@ -913,7 +1017,7 @@
                                 <div class="columns is-vcentered">
                                     <div class="column is-3">
                                         <!-- /Form field -->
-                                        <div class="control-material is-primary">      
+                                        <div class="control-material is-primary">
                                             <input class="material-input" type="text" name='email' required>
                                             <span class="material-highlight"></span>
                                             <span class="bar"></span>
@@ -923,7 +1027,7 @@
                                     </div>
                                     <div class="column is-6">
                                         <!-- Form field -->
-                                        <div class="control-material is-primary">      
+                                        <div class="control-material is-primary">
                                             <input class="material-input" type="text" name='message' required>
                                             <span class="material-highlight"></span>
                                             <span class="bar"></span>
@@ -931,7 +1035,7 @@
                                         </div>
                                         <!-- /Form field -->
                                     </div>
-                                 
+
                                     <div class="column is-3">
                                         <button type="submit" class="button button-cta btn-align primary-btn btn-outlined is-bold rounded raised no-lh">Send</button>
                                     </div>
@@ -945,17 +1049,17 @@
             </div>
         </section>
         <!-- /Contact form section -->
-        
+
         <!-- Footer light -->
         <footer class="footer footer-light">
             <div class="container">
                 <div class="columns footer-columns is-flex-mobile">
-              
+
                     <!-- Column -->
                     <div class="column is-half-mobile">
                         <div class="footer-column">
                             <div class="footer-logo">
-                              
+
                             </div>
                             <div class="footer-header">
                                 <nav class="level is-mobile">
@@ -973,14 +1077,14 @@
                                 </nav>
                             </div>
                             <div class="copyright">
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- /Footer light -->        
+        <!-- /Footer light -->
         <!-- Side navigation -->
         <div class="side-navigation-menu">
             <!-- Categories menu -->
@@ -993,7 +1097,7 @@
                     <li class="category-link" data-navigation-menu="extras"><i class="sl sl-icon-present"></i></li>
                 </ul>
                 <!-- Menu -->
-        
+
                 <ul class="author">
                     <li>
                         <!-- Theme author -->
@@ -1004,19 +1108,19 @@
                 </ul>
             </div>
             <!-- /Categories menu -->
-        
+
             <!-- Navigation menu -->
             <div id="demo-pages" class="navigation-menu-wrapper animated preFadeInRight fadeInRight">
                 <!-- Navigation Header -->
                 <div class="navigation-menu-header">
                     <span>Demo pages</span>
                     <a class="ml-auto hamburger-btn navigation-close" href="javascript:void(0);">
-                        <span class="menu-toggle">  
-                            <span class="icon-box-toggle">  
+                        <span class="menu-toggle">
+                            <span class="icon-box-toggle">
                                 <span class="rotate">
                                     <i class="icon-line-top"></i>
                                     <i class="icon-line-center"></i>
-                                    <i class="icon-line-bottom"></i> 
+                                    <i class="icon-line-bottom"></i>
                                 </span>
                             </span>
                         </span>
@@ -1100,12 +1204,12 @@
                 <div class="navigation-menu-header">
                     <span>Components</span>
                     <a class="ml-auto hamburger-btn navigation-close" href="javascript:void(0);">
-                        <span class="menu-toggle">  
-                            <span class="icon-box-toggle">  
+                        <span class="menu-toggle">
+                            <span class="icon-box-toggle">
                                 <span class="rotate">
                                     <i class="icon-line-top"></i>
                                     <i class="icon-line-center"></i>
-                                    <i class="icon-line-bottom"></i> 
+                                    <i class="icon-line-bottom"></i>
                                 </span>
                             </span>
                         </span>
@@ -1196,12 +1300,12 @@
                 <div class="navigation-menu-header">
                     <span>Extras</span>
                     <a class="ml-auto hamburger-btn navigation-close" href="javascript:void(0);">
-                        <span class="menu-toggle">  
-                            <span class="icon-box-toggle">  
+                        <span class="menu-toggle">
+                            <span class="icon-box-toggle">
                                 <span class="rotate">
                                     <i class="icon-line-top"></i>
                                     <i class="icon-line-center"></i>
-                                    <i class="icon-line-bottom"></i> 
+                                    <i class="icon-line-bottom"></i>
                                 </span>
                             </span>
                         </span>
@@ -1246,9 +1350,9 @@
                 </ul>
             </div>
             <!-- /Navigation menu --></div>
-        <!-- /Side navigation -->        
+        <!-- /Side navigation -->
         <!-- Back To Top Button -->
-        <div id="backtotop"><a href="#"></a></div>        
+        <div id="backtotop"><a href="#"></a></div>
         <!-- Bulchat Button -->
         <!-- <div id="bulchat" class="open"><div class="chat-button open g-item"></div></div> -->
         <!-- Chat widget -->
@@ -1300,16 +1404,16 @@
                 </div>
             </div>
         </div>
-        <!-- /Chat widget -->        
+        <!-- /Chat widget -->
         <!-- Concatenated jQuery and plugins -->
         <script src="assets/js/app.js"></script>
-        
+
         <!-- Bulkit js -->
         <script src="assets/js/landingv2.js"></script>
         <script src="assets/js/auth.js"></script>
-        <script src="assets/js/main.js"></script> 
-        <script src="assets/js/components-toasts.js"></script>    
-        
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/components-toasts.js"></script>
+
 
         <?php if(isset($_GET["msg"])){ ?>
             <script type='text/javascript'>
@@ -1325,6 +1429,6 @@
                 });
             </script>
         <?php } ?>
-        
-    </body>  
+
+    </body>
 </html>
