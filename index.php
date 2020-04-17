@@ -153,7 +153,8 @@
                 <div class="content-wrapper">
 
                     <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
-                         <!-- Project -->
+
+                        <!-- Project -->
                         <div class="column">
                             <div class="mr-10 min-height">
                             <div class="flex-card light-bordered hover-inset ">
@@ -206,6 +207,78 @@
                                     <div class="content">
                                         <p class="pb-10 project-text">
                                             Vault high availability implementation using a load balancer, instances on different networks, KMS and Dynamo DB as the data storage. All the elements has been coded using Terraform. Also vault has been implemented to use the auto-unseal feature.
+                                            <br/>
+
+                                        </p>
+                                    </div>
+                                    <div class="has-text-right">
+                                        <a href='/vault-aws.php' class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- /Project -->
+                    </div>
+
+
+                    <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
+
+                        <!-- Project -->
+                        <div class="column">
+                            <div class="mr-10 min-height">
+                            <div class="flex-card light-bordered hover-inset ">
+                                <div class="flex-card-header">
+                                    <div class="header-avatar">
+                                        <!-- <img src="assets/images/avatars/helen.jpg"> -->
+                                    </div>
+                                    <div class="header-info">
+                                        <div class="header-title">Angular Marketing Plans</div>
+                                        <div class="header-subtitle">Angular / Firebase / D3 </div>
+                                    </div>
+                                    <div class="header-control ml-auto">
+                                        <!-- <a href='http://servers.oru.com.co/app' target="_blank"><i style='font-size:2rem' class="material-icons">call_made</i></a> -->
+                                    </div>
+                                </div>
+                                <div class="card-body is-small">
+                                    <div class="content">
+                                        <p class="pb-10 project-text">
+                                            Application to allow small/medium business to create marketing plans
+                                            in a simple way. User can register using Google account. The application contains year and month calendar and d3 visualizations.
+                                          <br/>
+
+                                        </p>
+                                    </div>
+                                    <div class="has-text-right">
+                                        <a href='#' class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- /Project -->
+
+                        <!-- Project -->
+                        <div class="column">
+                            <div class="mr-10 min-height">
+                            <div class="flex-card light-bordered hover-inset ">
+                                <div class="flex-card-header">
+                                    <div class="header-avatar">
+                                        <!-- <img src="assets/images/avatars/helen.jpg"> -->
+                                    </div>
+                                    <div class="header-info">
+                                        <div class="header-title">Venture investments</div>
+                                        <div class="header-subtitle">Java / Spring / Vaadin</div>
+                                    </div>
+                                    <div class="header-control ml-auto">
+                                        <!-- <a href='http://servers.oru.com.co/app' target="_blank"><i style='font-size:2rem' class="material-icons">call_made</i></a> -->
+                                    </div>
+                                </div>
+                                <div class="card-body is-small">
+                                    <div class="content">
+                                        <p class="pb-10 project-text">
+                                            Application that connect venture companies to investors Include
+                                            the options to fill all the important information about the project and allow investors to indicate interest and invest in the project.
                                             <br/>
 
                                         </p>
@@ -345,6 +418,37 @@
                                             Provider Portal allows to promote STEM education opportunities to families,
                                             post volunteer openings through VolunteerMatch and to find other organizations
                                             with which to collaborate
+                                        </p>
+                                    </div>
+                                    <div class="has-text-right">
+                                        <a href='https://theconnectory.org' target="_blank" class="button btn-align btn-outlined accent-btn rounded raised">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- /Project -->
+
+                         <!-- Project -->
+                        <div class="column">
+                            <div class="mr-">
+                            <div class="flex-card light-bordered hover-inset ">
+                                <div class="flex-card-header">
+                                    <div class="header-avatar">
+                                        <!-- <img src="assets/images/avatars/helen.jpg"> -->
+                                    </div>
+                                    <div class="header-info">
+                                        <div class="header-title">VendaMais</div>
+                                        <div class="header-subtitle">Android / Sqlite / WebServices</div>
+                                    </div>
+                                    <div class="header-control ml-auto">
+                                        <!-- <a href='https://theconnectory.org' target="_blank"><i style='font-size:2rem' class="material-icons">call_made</i></a> -->
+                                    </div>
+                                </div>
+                                <div class="card-body is-small">
+                                    <div class="content">
+                                        <p class="pb-10 project-text">
+                                            Application to allow sellers to manage all the business using a simple device, users can work offline and sync the information when a wifi connection is available. Show customers location using google maps and is able to display importante information and stats about the actual sells.
                                         </p>
                                     </div>
                                     <div class="has-text-right">
