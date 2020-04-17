@@ -959,106 +959,58 @@
                     <div class="columns is-vcentered is-multiline has-text-centered">
                         <div class="column is-hidden-mobile"></div>
 
-                        <div class="column is-3">
+                        <div class="column is-4">
                             <div class="flex-card light-bordered primary-card light-raised">
                                 <div class="card-body">
                                     <div class="content">
-                                        <h2 class="no-margin title-bold">Card title</h2>
-                                        <p class="pt-10">Lorem ipsum dolor sit amet, has vero libris melius ea, omnis velit comprehensam duo an, meis ornatus eam ad. Ius ut labores scaevola.</p>
+                                        <h2 class="no-margin title-bold">PHP</h2>
+                                        <p class="pt-10">Zend Php Certified Programmer</p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Icon box -->
-                        <div class="column is-3">
-                            <div class="square-icon-box rounded secondary">
-                                <div class="icon-box-wrapper">
-                                    <div class="icon-box">
-                                        <i class="material-icons">assignment_turned_in</i>
-                                    </div>
-                                </div>
-                                <div class="box-title" title="Zend Php Certified Programmer">
-                                    PHP
-                                </div>
-                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Icon box -->
-                        <div class="column is-3">
-                            <div class="square-icon-box rounded secondary">
-                                <div class="icon-box-wrapper">
-                                    <div class="icon-box">
-                                        <i class="material-icons">assignment_turned_in</i>
+                        <div class="column is-4">
+                            <div class="flex-card light-bordered primary-card light-raised">
+                                <div class="card-body">
+                                    <div class="content">
+                                        <h2 class="no-margin title-bold">Java</h2>
+                                        <p class="pt-10">Oracle Certified Java Programmer</p>
                                     </div>
-                                </div>
-                                <div class="box-title" title="Certified Java Programmer">
-                                    Java
-                                </div>
-                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Icon box -->
-                        <div class="column is-3">
-                            <div class="square-icon-box rounded secondary">
-                                <div class="icon-box-wrapper">
-                                    <div class="icon-box">
-                                        <i class="material-icons">assignment_turned_in</i>
+                        <div class="column is-4">
+                            <div class="flex-card light-bordered primary-card light-raised">
+                                <div class="card-body">
+                                    <div class="content">
+                                        <h2 class="no-margin title-bold">Amazon Aws</h2>
+                                        <p class="pt-10">Aws Certified Solutions Architect</p>
                                     </div>
-                                </div>
-                                <div class="box-title">
-                                    PSP
-                                </div>
-                                <div class="box-text is-tablet-padded-lg">
                                 </div>
                             </div>
                         </div>
 
-                        <!-- /Icon box -->
-                        <div class="column is-hidden-mobile"></div>
+
                     </div>
 
                     <div class="columns is-vcentered is-multiline has-text-centered">
                         <div class="column is-hidden-mobile"></div>
 
-                        <!-- Icon box -->
-                        <div class="column is-3">
-                            <div class="square-icon-box rounded secondary">
-                                <div class="icon-box-wrapper">
-                                    <div class="icon-box">
-                                        <i class="material-icons">assignment_turned_in</i>
+                            <div class="column is-4">
+                                <div class="flex-card light-bordered primary-card light-raised">
+                                    <div class="card-body">
+                                        <div class="content">
+                                            <h2 class="no-margin title-bold">PSP</h2>
+                                            <p class="pt-10">SEI PSP Certified Developer</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="box-title">
-                                    Process Maker
-                                </div>
-                                <div class="box-text is-tablet-padded-lg">
-                                </div>
                             </div>
-                        </div>
-
-                        <!-- Icon box -->
-                        <div class="column is-3">
-                            <div class="square-icon-box rounded secondary">
-                                <div class="icon-box-wrapper">
-                                    <div class="icon-box">
-                                        <i class="material-icons">assignment_turned_in</i>
-                                    </div>
-                                </div>
-                                <div class="box-title" title="Aws Certified Solutions Architect">
-                                    AWS
-                                </div>
-                                <div class="box-text is-tablet-padded-lg">
-                                </div>
-                            </div>
-                        </div>
-
 
                         <!-- /Icon box -->
-                        <div class="column is-hidden-mobile"></div>
+
                     </div>
 
 
