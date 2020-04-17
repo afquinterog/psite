@@ -957,7 +957,6 @@
 
                 <div class="content-wrapper">
                     <div class="columns is-vcentered is-multiline has-text-centered">
-                        <div class="column is-hidden-mobile"></div>
 
                         <div class="column is-4">
                             <div class="flex-card light-bordered primary-card light-raised">
@@ -996,20 +995,18 @@
                     </div>
 
                     <div class="columns is-vcentered is-multiline has-text-centered">
-                        <div class="column is-hidden-mobile"></div>
 
-                            <div class="column is-4">
-                                <div class="flex-card light-bordered primary-card light-raised">
-                                    <div class="card-body">
-                                        <div class="content">
-                                            <h2 class="no-margin title-bold">PSP</h2>
-                                            <p class="pt-10">SEI PSP Certified Developer</p>
-                                        </div>
+                        <div class="column is-4">
+                            <div class="flex-card light-bordered primary-card light-raised">
+                                <div class="card-body">
+                                    <div class="content">
+                                        <h2 class="no-margin title-bold">PSP</h2>
+                                        <p class="pt-10">SEI PSP Certified Developer</p>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                        <!-- /Icon box -->
 
                     </div>
 
