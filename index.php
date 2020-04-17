@@ -967,7 +967,7 @@
                                         <i class="material-icons">assignment_turned_in</i>
                                     </div>
                                 </div>
-                                <div class="box-title">
+                                <div class="box-title" title="Zend Php Certified Programmer">
                                     PHP
                                 </div>
                                 <div class="box-text is-tablet-padded-lg">
@@ -983,7 +983,7 @@
                                         <i class="material-icons">assignment_turned_in</i>
                                     </div>
                                 </div>
-                                <div class="box-title">
+                                <div class="box-title" title="Certified Java Programmer">
                                     Java
                                 </div>
                                 <div class="box-text is-tablet-padded-lg">
@@ -1038,8 +1038,8 @@
                                         <i class="material-icons">assignment_turned_in</i>
                                     </div>
                                 </div>
-                                <div class="box-title">
-                                    Aws(WIP)
+                                <div class="box-title" title="Aws Certified Solutions Architect">
+                                    AWS
                                 </div>
                                 <div class="box-text is-tablet-padded-lg">
                                 </div>
