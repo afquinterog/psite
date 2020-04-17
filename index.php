@@ -959,6 +959,16 @@
                     <div class="columns is-vcentered is-multiline has-text-centered">
                         <div class="column is-hidden-mobile"></div>
 
+                        <div class="column is-3">
+                            <div class="flex-card light-bordered primary-card light-raised">
+                                <div class="card-body">
+                                    <div class="content">
+                                        <h2 class="no-margin title-bold">Card title</h2>
+                                        <p class="pt-10">Lorem ipsum dolor sit amet, has vero libris melius ea, omnis velit comprehensam duo an, meis ornatus eam ad. Ius ut labores scaevola.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- Icon box -->
                         <div class="column is-3">
                             <div class="square-icon-box rounded secondary">
