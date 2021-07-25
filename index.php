@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>DevOps / Web Developer </title>
+        <title>DevOps / Senior Web Developer </title>
         <meta name="description" content="Web developer certified in Java and PHP actually working on Laravel projects
         more than 11 years of experience developing web applications">
         <meta name="keywords" content="Laravel,Php,Vue,JavaScript,Developer,Web">
