@@ -142,7 +142,7 @@
                     </h2>
                     <h4>
                         <p class="content">
-                        Some projects i worked actively, some of them are propietary so it not possible for me to
+                        Some projects i worked actively, some of them are Copyright so it not possible for me to
                         access the production site, but chances are i have it on my local environment or at least some screenshots
                         just for academic purposes.
                         </p>
@@ -153,6 +153,41 @@
                 <div class="content-wrapper">
 
                     <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
+
+                        <!-- Project -->
+                        <div class="column">
+                            <div class="mr-10 min-height">
+                                <div class="flex-card light-bordered hover-inset ">
+                                    <div class="flex-card-header">
+                                        <div class="header-avatar">
+                                            <!-- <img src="assets/images/avatars/helen.jpg"> -->
+                                        </div>
+                                        <div class="header-info">
+                                            <div class="header-title">PairChess</div>
+                                            <div class="header-subtitle">Laravel / Livewire / Alpine / Pusher / Redis / </div>
+                                        </div>
+                                        <div class="header-control ml-auto">
+                                            <!-- <a href='http://servers.oru.com.co/app' target="_blank"><i style='font-size:2rem' class="material-icons">call_made</i></a> -->
+                                        </div>
+                                    </div>
+                                    <div class="card-body is-small">
+                                        <div class="content">
+                                            <p class="pb-10 project-text">
+
+                                                Application that allows you to play chess online with a friend following the board rules.
+                                                In addition to implementing the chess game, the architecture is in place to support any other kind of board games.
+                                                The only thing needs to be done is just replace the rules.<br/>
+
+                                            </p>
+                                        </div>
+                                        <div class="has-text-right">
+                                            <a href='https://youtu.be/FfXzbyV6q9s' class="button btn-align btn-outlined accent-btn rounded raised">View Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Project -->
 
                         <!-- Project -->
                         <div class="column">
