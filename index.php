@@ -153,7 +153,6 @@
                 <div class="content-wrapper">
 
                     <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
-
                         <!-- Project -->
                         <div class="column">
                             <div class="mr-10 min-height">
@@ -188,6 +187,10 @@
                             </div>
                         </div>
                         <!-- /Project -->
+
+                    </div>
+
+                    <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
 
                         <!-- Project -->
                         <div class="column">
