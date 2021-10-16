@@ -153,6 +153,7 @@
                 <div class="content-wrapper">
 
                     <div class="columns integration-cards is-minimal is-vcentered is-gapless is-multiline">
+
                         <!-- Project -->
                         <div class="column">
                             <div class="mr-10 min-height">
@@ -181,6 +182,43 @@
                                         </div>
                                         <div class="has-text-right">
                                             <a href='https://youtu.be/FfXzbyV6q9s' class="button btn-align btn-outlined accent-btn rounded raised">View Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Project -->
+
+                        <!-- Project -->
+                        <div class="column">
+                            <div class="mr-10 min-height">
+                                <div class="flex-card light-bordered hover-inset ">
+                                    <div class="flex-card-header">
+                                        <div class="header-avatar">
+                                            <!-- <img src="assets/images/avatars/helen.jpg"> -->
+                                        </div>
+                                        <div class="header-info">
+                                            <div class="header-title">Simple Chat</div>
+                                            <div class="header-subtitle">Laravel / Livewire / Alpine / Mysql  </div>
+                                        </div>
+                                        <div class="header-control ml-auto">
+                                            <!-- <a href='http://servers.oru.com.co/app' target="_blank"><i style='font-size:2rem' class="material-icons">call_made</i></a> -->
+                                        </div>
+                                    </div>
+                                    <div class="card-body is-small">
+                                        <div class="content">
+                                            <p class="pb-10 project-text">
+
+                                                Application that allows you to chat online with a friend.
+                                                The chat supports attaching files and having different conversations.
+                                                Users can have different chats and notifications will be shown in the application as soon as a new message comes in.
+                                                Application allow chat for user groups.
+                                                <br/>
+
+                                            </p>
+                                        </div>
+                                        <div class="has-text-right">
+                                            <a href='https://youtu.be/pPtTIuqT30c' class="button btn-align btn-outlined accent-btn rounded raised">View Demo</a>
                                         </div>
                                     </div>
                                 </div>
