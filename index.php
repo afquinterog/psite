@@ -1147,44 +1147,7 @@
                 </div>
                 <!-- /Title -->
 
-                <div class="content-wrapper">
-                    <!-- Form -->
-                    <form action="message.php" method="POST">
-
-                        <div class="columns">
-                            <div class="column is-8 is-offset-2">
-                                <div class="columns is-vcentered">
-                                    <div class="column is-3">
-                                        <!-- /Form field -->
-                                        <div class="control-material is-primary">
-                                            <input class="material-input" type="text" name='email' required>
-                                            <span class="material-highlight"></span>
-                                            <span class="bar"></span>
-                                            <label>Email *</label>
-                                        </div>
-                                        <!-- /Form field -->
-                                    </div>
-                                    <div class="column is-6">
-                                        <!-- Form field -->
-                                        <div class="control-material is-primary">
-                                            <input class="material-input" type="text" name='message' required>
-                                            <span class="material-highlight"></span>
-                                            <span class="bar"></span>
-                                            <label>Message *</label>
-                                        </div>
-                                        <!-- /Form field -->
-                                    </div>
-
-                                    <div class="column is-3">
-                                        <button type="submit" class="button button-cta btn-align primary-btn btn-outlined is-bold rounded raised no-lh">Send</button>
-                                    </div>
-                                </div>
-                                <div class="bottom-spacer is-hidden-mobile"></div>
-                            </div>
-                        </div>
-                    </form>
-                    <!-- /Form -->
-                </div>
+               
             </div>
         </section>
         <!-- /Contact form section -->
