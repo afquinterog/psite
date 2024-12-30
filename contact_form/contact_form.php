@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'admin@servibot.co';
+$from = 'info@servibot.co';
 $sendTo = 'rocoutp@gmail.com';
 $subject = 'New message from Personal page';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message');
