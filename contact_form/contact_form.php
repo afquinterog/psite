@@ -8,6 +8,14 @@ $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'm
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
+
+// SMTP Configuration
+$smtpHost = 'sandbox.smtp.mailtrap.io'; // Replace with your SMTP server
+$smtpPort = 587; // Port (usually 587 for TLS)
+$username = '6a21aff98f87e1'; // Your SMTP username
+$password = '9823005a04d702'; // Your SMTP password or app-specific password
+
+
 // let's do the sending
 
 if(isset($_POST['recaptcha_response']) && !empty($_POST['recaptcha_response'])):
@@ -53,6 +61,8 @@ if(isset($_POST['recaptcha_response']) && !empty($_POST['recaptcha_response'])):
 
             //mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
+            sendSMTPMail($sendTo, $subject, $emailText, $from, $smtpHost, $smtpPort, $username, $password);
+
             $responseArray = array('type' => 'success', 'message' => $okMessage);
         }
         catch (\Exception $e)
@@ -88,3 +98,58 @@ else:
 
             echo $encoded;
 endif;
+
+
+function sendSMTPMail($to, $subject, $message, $from, $smtpHost, $smtpPort, $username, $password) {
+    $socket = fsockopen($smtpHost, $smtpPort, $errno, $errstr, 10);
+    if (!$socket) {
+        echo "Connection failed: $errstr ($errno)";
+        return false;
+    }
+
+    // Server response
+    function serverResponse($socket, $expectedCode) {
+        $response = fgets($socket, 512);
+        if (substr($response, 0, 3) != $expectedCode) {
+            echo "Unexpected response: $response";
+            return false;
+        }
+        return true;
+    }
+
+    // Helper to send a command and check response
+    function sendCommand($socket, $cmd, $expectedCode) {
+        fwrite($socket, $cmd . "\r\n");
+        return serverResponse($socket, $expectedCode);
+    }
+
+    // Start conversation
+    serverResponse($socket, '220');
+    sendCommand($socket, "EHLO localhost", '250');
+    sendCommand($socket, "AUTH LOGIN", '334');
+    sendCommand($socket, base64_encode($username), '334');
+    sendCommand($socket, base64_encode($password), '235');
+
+    // Set sender and recipient
+    sendCommand($socket, "MAIL FROM: <$from>", '250');
+    sendCommand($socket, "RCPT TO: <$to>", '250');
+    sendCommand($socket, "DATA", '354');
+
+    // Send email headers and body
+    $headers = "From: <$from>\r\n";
+    $headers .= "To: <$to>\r\n";
+    $headers .= "Subject: $subject\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+    fwrite($socket, $headers . "\r\n" . $message . "\r\n.\r\n");
+    serverResponse($socket, '250');
+
+    // Close connection
+    sendCommand($socket, "QUIT", '221');
+    fclose($socket);
+
+    echo "Email sent successfully!";
+    return true;
+}
+?>
