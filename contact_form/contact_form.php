@@ -7,7 +7,7 @@ require '../vendor/autoload.php';
 
 
 // configure
-$from = 'info@servibot.co';
+$from = 'info@andres.servibot.co';
 $sendTo = 'rocoutp@gmail.com';
 $subject = 'New message from Personal page';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message');
@@ -77,7 +77,6 @@ if(isset($_POST['recaptcha_response']) && !empty($_POST['recaptcha_response'])):
                 $mail->SMTPAuth = true; // Enable SMTP authentication
                 $mail->Username = $username; // SMTP username
                 $mail->Password = $password; // SMTP password
-                $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption
                 $mail->Port = 587; // TCP port (use 587 for TLS, 465 for SSL)
 
                 // Email sender and recipient
