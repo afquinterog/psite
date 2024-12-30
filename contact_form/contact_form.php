@@ -16,10 +16,10 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 
 // SMTP Configuration
-$smtpHost = 'sandbox.smtp.mailtrap.io'; // Replace with your SMTP server
+$smtpHost = 'live.smtp.mailtrap.io'; // Replace with your SMTP server
 $smtpPort = 587; // Port (usually 587 for TLS)
-$username = '6a21aff98f87e1'; // Your SMTP username
-$password = '9823005a04d702'; // Your SMTP password or app-specific password
+$username = 'smtp@mailtrap.io'; // Your SMTP username
+$password = '9c9ea627d01cab78a7bf14dcbe5f0528'; // Your SMTP password or app-specific password
 
 
 
