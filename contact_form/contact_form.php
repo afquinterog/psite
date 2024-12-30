@@ -34,8 +34,8 @@ if(isset($_POST['recaptcha_response']) && !empty($_POST['recaptcha_response'])):
 
             $headers = array('Content-Type: text/html; charset="UTF-8";',
                 'From: ' . $from,
-                'Reply-To: ' . $from,
-                'Return-Path: ' . $from,
+                'Reply-To: ' . $sendTo,
+                'Return-Path: ' . $sendTo,
             );
 
             mail($sendTo, $subject, $emailText, implode("\n", $headers));
