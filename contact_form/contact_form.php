@@ -73,10 +73,10 @@ if(isset($_POST['recaptcha_response']) && !empty($_POST['recaptcha_response'])):
             try {
                 // SMTP server configuration
                 $mail->isSMTP(); // Set mailer to use SMTP
-                $mail->Host = 'sandbox.smtp.mailtrap.io'; // SMTP server address
+                $mail->Host = $smtpHost; // SMTP server address
                 $mail->SMTPAuth = true; // Enable SMTP authentication
-                $mail->Username = '6a21aff98f87e1'; // SMTP username
-                $mail->Password = '9823005a04d702'; // SMTP password
+                $mail->Username = $username; // SMTP username
+                $mail->Password = $password; // SMTP password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption
                 $mail->Port = 587; // TCP port (use 587 for TLS, 465 for SSL)
 
