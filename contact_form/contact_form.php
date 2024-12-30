@@ -1,8 +1,8 @@
 <?php
 
 // configure
-$from = 'admin@servibot.co'; // Replace it with Your Hosting Admin email. REQUIRED!
-$sendTo = 'rocoutp@gmail.com'; // Replace it with Your email. REQUIRED!
+$from = 'afq.servicesapp.co';
+$sendTo = 'rocoutp@gmail.com';
 $subject = 'New message from Personal page';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message');
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
