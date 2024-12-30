@@ -32,13 +32,26 @@ if(isset($_POST['recaptcha_response']) && !empty($_POST['recaptcha_response'])):
                 }
             }
 
-            $headers = array('Content-Type: text/html; charset="UTF-8";',
-                'From: ' . $from,
-                'Reply-To: ' . $sendTo,
-                'Return-Path: ' . $sendTo,
-            );
+            // $headers = array('Content-Type: text/html; charset="UTF-8";',
+            //     'From: ' . $from,
+            //     'Reply-To: ' . $sendTo,
+            //     'Return-Path: ' . $sendTo,
+            // );
 
-            mail($sendTo, $subject, $emailText, implode("\n", $headers));
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $headers .= "From: $from" . "\r\n";
+            $headers .= "Reply-To: $sendTo" . "\r\n";
+
+            $isMailSent = mail($sendTo, $subject, $emailText, $headers);
+
+            if ($isMailSent) {
+                error_log("Mail sent successfully.");
+            } else {
+                error_log("Failed to send mail.");
+            }
+
+            //mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
             $responseArray = array('type' => 'success', 'message' => $okMessage);
         }
