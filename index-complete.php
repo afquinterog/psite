@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NJ5NLFFQ');</script>
-    <!-- End Google Tag Manager -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LeIvakqAAAAAIApIVCYhCiZpjiGAqz3jLG8FJyM"></script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Andres Quintero - Senior Web Developer</title>
@@ -30,10 +21,6 @@
   </head>
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ5NLFFQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <!-- Animated Background -->
     <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
     <!-- /Animated Background -->
@@ -81,18 +68,18 @@
                   <span class="link-text">Resume</span>
                 </a>
               </li>
-              <!-- <li>
+              <li>
                 <a href="#portfolio" class="nav-anim">
                   <span class="menu-icon lnr lnr-briefcase"></span>
                   <span class="link-text">Portfolio</span>
                 </a>
-              </li> -->
-              <!-- <li>
+              </li>
+              <li>
                 <a href="#blog" class="nav-anim">
                   <span class="menu-icon lnr lnr-book"></span>
                   <span class="link-text">Blog</span>
                 </a>
-              </li> -->
+              </li>
               <li>
                 <a href="#contact" class="nav-anim">
                   <span class="menu-icon lnr lnr-envelope"></span>
@@ -111,7 +98,7 @@
             </div>
 
             <div class="header-buttons">
-              <a href="/cv-aquintero-2025.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+              <a href="main/cv-aquintero-2025.pdf" target="_blank" class="btn btn-primary">Download CV</a>
             </div>
 
             <div class="copyrights">© <?php echo date('Y'); ?> All rights reserved.</div>
@@ -882,6 +869,222 @@
               </section>
               <!-- End of Resume Subpage -->
 
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Portfolio</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_mockups">Mockups</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_vimeo-videos">Vimeo Videos</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube Videos</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+
+                          <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/1.jpg" alt="SoundCloud Audio" title="" />
+                              <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"></a>
+                            </div>
+
+                            <i class="fa fa-volume-up"></i>
+                            <h4 class="name">SoundCloud Audio</h4>
+                            <span class="category">SoundCloud</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/2.jpg" alt="Media Project 2" title="" />
+                              <a href="portfolio-1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Detailed Project 2</h4>
+                            <span class="category">Detailed</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/3.jpg" alt="Vimeo Video 1" title="" />
+                              <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video 1"></a>
+                            </div>
+
+                            <i class="fas fa-video"></i>
+                            <h4 class="name">Vimeo Video 1</h4>
+                            <span class="category">Vimeo Videos</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/4.jpg" alt="Media Project 1" title="" />
+                              <a href="portfolio-1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Detailed Project 1</h4>
+                            <span class="category">Detailed</span>
+                          </figure>
+
+                          <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h4 class="name">Mockup Design 1</h4>
+                            <span class="category">Mockups</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/6.jpg" alt="YouTube Video 1" title="" />
+                              <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
+                            </div>
+
+                            <i class="fas fa-video"></i>
+                            <h4 class="name">YouTube Video 1</h4>
+                            <span class="category">YouTube Videos</span>
+                          </figure>
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
+
+              <!-- Blog Subpage -->
+              <section data-id="blog" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Blog</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="blog-masonry two-columns clearfix">
+
+                        <!-- Blog Post 1 -->
+                        <div class="item post-1">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in Design">Design</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_1.jpg" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">05 Mar 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">Why I Switched to Sketch For UI Design</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 1 -->
+
+                        <!-- Blog Post 2 -->
+                        <div class="item post-2">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in UI">UI</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_2.jpg" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">23 Feb 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">Best Practices for Animated Progress Indicators</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 2 -->
+
+                        <!-- Blog Post 3 -->
+                        <div class="item post-1">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in Design">Design</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_3.jpg" class="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">06 Feb 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">Designing the Perfect Feature Comparison Table</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 3 -->
+
+                        <!-- Blog Post 4 -->
+                        <div class="item post-2">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in E-Commerce">UI</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_4.jpg" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">07 Jan 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">An Overview of E-Commerce Platforms</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 4 -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </section>
+              <!-- End of Blog Subpage -->
 
               <!-- Contact Subpage -->
               <section data-id="contact" class="animated-section">
@@ -895,31 +1098,31 @@
                     <div class="col-xs-12 col-sm-4">
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-map-marker"></i>
-                        <h4>LATAM</h4>
+                        <h4>San Francisco</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                       </div>
 
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-phone-handset"></i>
-                        <h4>+573127529911</h4>
+                        <h4>415-832-2000</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                       </div>
 
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-envelope"></i>
-                        <h4>rocoutp@gmail.com</h4>
+                        <h4>alex@example.com</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                       </div>
 
-                      <!-- <div class="lm-info-block gray-default">
+                      <div class="lm-info-block gray-default">
                         <i class="lnr lnr-checkmark-circle"></i>
                         <h4>Freelance Available</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
-                      </div> -->
+                      </div>
 
 
                     </div>
@@ -927,16 +1130,16 @@
 
                     <!-- Contact Form -->
                     <div class="col-xs-12 col-sm-8">
-                      <!-- <div class="lmpixels-map">
+                      <div class="lmpixels-map">
                         <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                      </div> -->
+                      </div>
                       <div class="block-title">
-                        <h3>Let's <span>Talk</span></h3>
+                        <h3>How Can I <span>Help You?</span></h3>
                       </div>
 
                       <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
 
-                        <div class="messages" style="margin-bottom: 35px;"></div>
+                        <div class="messages"></div>
 
                         <div class="controls two-columns">
                           <div class="fields clearfix">
@@ -972,7 +1175,8 @@
                             </div>
                           </div>
 
-                          <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
+
                           <input type="submit" class="button btn-send" value="Send message">
                         </div>
                       </form>
@@ -1004,13 +1208,5 @@
 
     <script src="js/validator.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-        grecaptcha.ready(function () {
-            grecaptcha.execute('6LeIvakqAAAAAIApIVCYhCiZpjiGAqz3jLG8FJyM', { action: 'submit' }).then(function (token) {
-                document.getElementById('recaptchaResponse').value = token;
-            });
-        });
-    </script>
   </body>
 </html>
