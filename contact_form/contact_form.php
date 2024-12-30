@@ -51,13 +51,13 @@ if(isset($_POST['recaptcha_response']) && !empty($_POST['recaptcha_response'])):
             $headers .= "From: $from" . "\r\n";
             $headers .= "Reply-To: $sendTo" . "\r\n";
 
-            $isMailSent = mail($sendTo, $subject, $emailText, $headers);
+            // $isMailSent = mail($sendTo, $subject, $emailText, $headers);
 
-            if ($isMailSent) {
-                error_log("Mail sent successfully.");
-            } else {
-                error_log("Failed to send mail.");
-            }
+            // if ($isMailSent) {
+            //     error_log("Mail sent successfully.");
+            // } else {
+            //     error_log("Failed to send mail.");
+            // }
 
             //mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
