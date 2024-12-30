@@ -83,7 +83,7 @@ if(isset($_POST['recaptcha_response']) && !empty($_POST['recaptcha_response'])):
 
     else:
         $errorMessage = 'Robot verification failed, please try again.';
-        $responseArray = array('type' => 'danger', 'message' => $errorMessage . $responseData);
+        $responseArray = array('type' => 'danger', 'message' => $errorMessage . json_encode($responseData));
 
             header('Content-Type: application/json');
 
