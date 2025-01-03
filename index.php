@@ -81,12 +81,12 @@
                   <span class="link-text">Resume</span>
                 </a>
               </li>
-              <!-- <li>
+              <li>
                 <a href="#portfolio" class="nav-anim">
                   <span class="menu-icon lnr lnr-briefcase"></span>
                   <span class="link-text">Portfolio</span>
                 </a>
-              </li> -->
+              </li>
               <!-- <li>
                 <a href="#blog" class="nav-anim">
                   <span class="menu-icon lnr lnr-book"></span>
@@ -881,6 +881,112 @@
                 </div>
               </section>
               <!-- End of Resume Subpage -->
+
+            <!-- Portfolio Subpage -->
+            <section data-id="portfolio" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Portfolio</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_laravel">Laravel</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_java">Java</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_wordpress">Wordpress</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+
+
+                          <figure class="item standard" data-groups='["category_all", "category_laravel"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/chat-app.png" alt="Simple Chat" title="" />
+                              <a href="portfolio/simple-chat.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Simple Chat</h4>
+                            <span class="category">Laravel</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_laravel"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/pair-chess.png" alt="PairChess" title="" />
+                              <a href="portfolio/pair-chess.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">PairChess</h4>
+                            <span class="category">Laravel</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_laravel"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/servibot.png" alt="Servibot" title="" />
+                              <a href="portfolio/servibot.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">ServiBot</h4>
+                            <span class="category">Laravel</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_java"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/trygps.png" alt="TryGps" title="" />
+                              <a href="portfolio/trygps.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">TryGps</h4>
+                            <span class="category">Java</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_java"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/venture.png" alt="TryGps" title="" />
+                              <a href="portfolio/venture.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Venture</h4>
+                            <span class="category">Java</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_wordpress"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/sciencefestivals.png" alt="Science Festivals Image" title="" />
+                              <a href="portfolio/sciencefestivals.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">ScienceFestivals</h4>
+                            <span class="category">Wordpress</span>
+                          </figure>
+
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <!-- End of Portfolio Subpage -->
 
 
               <!-- Contact Subpage -->
